@@ -2,6 +2,9 @@
   --primary-color: #897ae3;
   --secondary-color: #e5e2f7;
 }
+section {
+  scroll-margin-top: 100px; /* حسب ارتفاع النافبار عندك */
+}
 /*Start   Navbar   */
 
 .navbar-logo {
