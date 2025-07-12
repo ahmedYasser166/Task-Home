@@ -46,11 +46,22 @@ body {
 .home {
   background-color: var(--secondary-color);
   padding-top: 170px;
-  padding-bottom: 110px;
+  padding-bottom: 70px;
   position: relative;
   overflow: hidden;
-  /* height: 100vh; */
 }
+.full-height-lg {
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .full-height-lg {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .home p {
   font-size: 20px;
   font-weight: 400;
