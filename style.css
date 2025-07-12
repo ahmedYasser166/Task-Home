@@ -9,9 +9,8 @@ section {
 body {
   font-family: "Almarai", sans-serif;
 }
-.Amiri{
-    font-family: "Amiri", serif;
-
+.Amiri {
+  font-family: "Amiri", serif;
 }
 
 .navbar-logo {
@@ -47,10 +46,10 @@ body {
 .home {
   background-color: var(--secondary-color);
   padding-top: 170px;
-  padding-bottom: 70px;
+  padding-bottom: 110px;
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .home p {
   font-size: 20px;
